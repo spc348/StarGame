@@ -32,7 +32,8 @@ public class Selected : MonoBehaviour {
 			transform.localScale = highlightScale;
 
 			preparedForSelect = true;
-			Debug.Log(preparedForSelect);
+			Debug.Log(preparedForSelect);'
+			Debug.Log("hell");
 		} else {
 			Color otherColor = new Color(255, 255, 255) * Time.deltaTime;
 			renderer.material.color = otherColor;
